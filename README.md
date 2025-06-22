@@ -24,14 +24,14 @@
 
 ## 📂 Cấu trúc thư mục dự án
 
-- Sentiment_Analysis_System-/
-├── data/                  # Dữ liệu đầu vào (được .gitignore)
-├── model/                 # Các mô hình đã huấn luyện (được .gitignore)
-├── src/                   # Source code chính của hệ thống
-├── app_vn.py             # Ứng dụng phân tích cảm xúc tiếng Việt
-├── danhgia_phim_vn.xlsx  # Tập dữ liệu đánh giá phim tiếng Việt
-├── movie_reviews_en.xlsx # Tập dữ liệu đánh giá phim tiếng Anh
-├── Readme.md             # File mô tả dự án
+Sentiment_Analysis_System-/
+├── data/
+├── model/
+├── src/
+├── app_vn.py
+├── danhgia_phim_vn.xlsx
+├── movie_reviews_en.xlsx
+└── Readme.md
 
 ## 🛠️ Công nghệ sử dụng
 Công nghệ	Mô tả
