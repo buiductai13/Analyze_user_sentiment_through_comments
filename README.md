@@ -24,7 +24,7 @@
 
 ## 📂 Cấu trúc thư mục dự án
 
-Sentiment_Analysis_System-/
+- Sentiment_Analysis_System-/
 ├── data/                  # Dữ liệu đầu vào (được .gitignore)
 ├── model/                 # Các mô hình đã huấn luyện (được .gitignore)
 ├── src/                   # Source code chính của hệ thống
