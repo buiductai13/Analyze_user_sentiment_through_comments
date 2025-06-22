@@ -22,16 +22,20 @@
   - Cảm xúc người dùng (Sentiment score)
 - ✅ Giao diện người dùng đơn giản bằng Streamlit
 
-## 📂 Cấu trúc thư mục dự án
+
+## 📁 Cấu trúc thư mục
 
 Sentiment_Analysis_System-/
-├── data/
-├── model/
-├── src/
-├── app_vn.py
-├── danhgia_phim_vn.xlsx
-├── movie_reviews_en.xlsx
-└── Readme.md
+├── app_vn.py               # Ứng dụng chính phân tích cảm xúc tiếng Việt
+├── data/                   # Dữ liệu đầu vào (được ignore khi push GitHub)
+├── model/                  # Các mô hình đã huấn luyện (được ignore)
+├── src/                    # Source code chính của hệ thống
+│   ├── recommender.py      # Mô hình đề xuất sản phẩm
+│   └── sentiment.py        # Bộ phân tích cảm xúc
+├── danhgia_phim_vn.xlsx    # Dataset đánh giá phim tiếng Việt
+├── movie_reviews_en.xlsx   # Dataset đánh giá phim tiếng Anh
+├── requirements.txt        # Thư viện phụ thuộc
+└── Readme.md               # File mô tả dự án
 
 ## 🛠️ Công nghệ sử dụng
 Công nghệ	Mô tả
