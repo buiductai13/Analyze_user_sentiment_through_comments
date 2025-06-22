@@ -46,6 +46,7 @@ Huggingface Hub	Tải mô hình pretrained
 1. Clone dự án
 _ git clone https://github.com/buiductai13/Sentiment_Analysis_System-.git
 - cd Sentiment_Analysis_System-
+
 2. Tạo và kích hoạt môi trường ảo
 🔹 Trên Windows:
 python -m venv venv
@@ -79,6 +80,7 @@ HYBRID_SCORE_WEIGHTS = {
     'price_similarity': 0.3,
     'user_sentiment': 0.2
 }
+
 📬 Liên hệ và đóng góp:
 📧 Email: buiductaicntt@gmail.com
 
